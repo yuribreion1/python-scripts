@@ -1,0 +1,3 @@
+requests==2.31.0
+logging  # (Standard library, but optional for documentation)
+pandas>=1.5.0
