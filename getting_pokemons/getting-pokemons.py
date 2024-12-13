@@ -6,7 +6,7 @@ from math import ceil
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-BASE_URL = 'https://pokeapi.co/api/v2'
+BASE_URL = os.getenv('POKEMON_BASE_URL')
 
 def fetch_data(base_url):
     try:
